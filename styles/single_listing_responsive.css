@@ -475,6 +475,24 @@
 		width: 16px;
 		margin-right: 7px;
 	}
+	/* Header logo - keep visible on mobile */
+	.header .logo_container .logo a img
+	{
+		width: 75px !important;
+		height: 75px !important;
+		margin-right: 0;
+	}
+	/* Footer logo - keep visible on mobile */
+	.footer_logo .logo a img
+	{
+		width: 75px !important;
+		height: 75px !important;
+		margin-right: 0;
+	}
+	.footer_logo .logo a
+	{
+		font-size: 22px !important;
+	}
 	.hamburger i
 	{
 		font-size: 18px;

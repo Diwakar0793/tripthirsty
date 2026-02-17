@@ -155,7 +155,7 @@ $(document).ready(function()
 	            getSortData: {
 	            	price: function(itemElement)
 	            	{
-	            		var priceEle = $(itemElement).find('.offers_price').text().replace( '$', '' );
+	            		var priceEle = $(itemElement).find('.offers_price').text().replace( /[₹,]/g, '' );
 	            		return parseFloat(priceEle);
 	            	},
 	            	name: '.offer_name',

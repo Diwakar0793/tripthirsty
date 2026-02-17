@@ -855,12 +855,12 @@ section
 .home_slider_prev:hover .nav_path,
 .home_slider_prev:hover .nav_arrow
 {
-	fill: url(#home_grad_prev);
+	fill: #fa9e1b;
 }
 .home_slider_next:hover .nav_arrow,
 .home_slider_next:hover .nav_path
 {
-	fill: url(#home_grad_next);
+	fill: #fa9e1b;
 }
 
 /*********************************
