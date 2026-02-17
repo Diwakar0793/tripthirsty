@@ -509,6 +509,15 @@
 	{
 		margin-bottom: 30px;
 	}
+	.blog_card
+	{
+		flex: 0 0 280px;
+		width: 280px;
+	}
+	.blog_card_image
+	{
+		height: 160px;
+	}
 	.contact_title
 	{
 		font-size: 24px;
